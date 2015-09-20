@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Posts</title>
+</head>
+<body>
+    <ul>
+        <h1>All posts:</h1>
+        {% for post in posts %}
+            <li>
+                <a href="{{ path('post_show', { post: post.slug }) }}">
+                    {{ post.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

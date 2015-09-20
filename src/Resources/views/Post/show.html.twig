@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ post.title }}</title>
+</head>
+<body>
+    <h1>{{ post.title }}</h1>
+    {{ post.content|raw }}
+
+    <hr>
+
+    <a href="{{ path('post_list') }}">Back</a>
+</body>
+</html>

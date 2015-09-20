@@ -1,0 +1,3 @@
+parameters:
+    # Your parameters will be available in Application parameters: $app['parameters']['my_key']
+    # And as twig global variables: {{ my_key }}.

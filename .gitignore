@@ -1,0 +1,6 @@
+# Composer
+/vendor/
+
+# Phpillip
+/bin/
+/dist/
