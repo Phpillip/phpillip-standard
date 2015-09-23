@@ -15,14 +15,16 @@ class Application extends BaseApplication
         parent::__construct($values);
 
         // Register your controllers as you would in any Silex app!
-        // Phillip recommands that you use Controller Classes: http://silex.sensiolabs.org/doc/usage.html#controllers-as-classes
 
-        $this->get('/', 'Controller\\PostController::index')
-            ->contents('post')
-            ->bind('post_list');
+        // A closure:
+        // $this->get('/', function () { return []; })->template('index.html.twig');
 
-        $this->get('/{post}', 'Controller\\PostController::show')
-            ->content('post')
-            ->bind('post_show');
+        // Your own controller class in 'src/Controller':
+        // (auto template 'Blog/index.html.twig')
+        // $this->get('/blog', 'Controller\\BlogController::index');
+
+        // The Phpillip content controller service:
+        // (auto template: 'post/show.html.twig')
+        // $this->get('/blog/{post}', 'content.controller:show')->content('post');
     }
 }
