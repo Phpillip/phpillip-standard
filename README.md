@@ -38,7 +38,7 @@ src/
 
         # Public directory
         public/
-            # ALl public directory content will be exposed in 'dist'
+            # All public directory content will be exposed in 'dist'
             css/
                 style.css
 
