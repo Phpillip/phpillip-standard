@@ -3,7 +3,15 @@
     "license": "MIT",
     "type": "project",
     "description": "Phpillip Standard Edition",
-    "homepage": "https://github.com/Phpillip/phpillip-standard",
+    "homepage": "http://phpillip.github.io/",
+    "authors": [
+        {
+            "name": "Thomas Jarrand",
+            "email": "thomas.jarrand@gmail.com",
+            "homepage": "http://thomas.jarrand.fr",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": { "": "src/"}
     },
