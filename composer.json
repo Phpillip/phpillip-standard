@@ -11,13 +11,6 @@
         "php": ">=5.6",
         "tom32i/phpillip": "~1.0"
     },
-    "repositories": {
-        "tom32i/phpillip": {
-            "url":"https://github.com/Tom32i/phpillip.git",
-            "type":"git"
-        }
-    },
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
